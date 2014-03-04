@@ -1,4 +1,4 @@
-sublime_settings
+config_things
 ================
 
-My sublime text settings.
+Where my sublime text and zsh configuration lives.
