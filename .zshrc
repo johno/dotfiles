@@ -78,3 +78,8 @@ alias mgn="cd ~/margin"
 alias lal="ls -al"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Open bundled version of the gem specified in Sublime Text.
+function gs () {
+  st $( bundle show $1 )
+}
