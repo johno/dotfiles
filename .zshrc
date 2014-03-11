@@ -75,6 +75,8 @@ alias rdtp="rake db:test:prepare"
 alias uc="cd ~/code/uceem/services && st ."
 alias mgn="cd ~/margin"
 
+alias grs="grunt serve"
+
 alias lal="ls -al"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
