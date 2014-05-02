@@ -13,3 +13,9 @@
 [submodule "terminal/solarized.terminal"]
 	path = terminal/solarized.terminal
 	url = https://github.com/tomislav/osx-terminal.app-colors-solarized
+[submodule "vim/bundle/bundler.vim"]
+	path = vim/bundle/bundler.vim
+	url = https://github.com/tpope/vim-bundler
+[submodule "vim/bundle/rails.vim"]
+	path = vim/bundle/rails.vim
+	url = https://github.com/tpope/vim-rails
