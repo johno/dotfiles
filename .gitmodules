@@ -1,0 +1,15 @@
+[submodule "vim/bundle/ag.vim"]
+	path = vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "vim/bundle/surround.vim"]
+	path = vim/bundle/surround.vim
+	url = https://github.com/tpope/vim-surround
+[submodule "vim/bundle/solarized.vim"]
+	path = vim/bundle/solarized.vim
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "terminal/solarized.terminal"]
+	path = terminal/solarized.terminal
+	url = https://github.com/tomislav/osx-terminal.app-colors-solarized
