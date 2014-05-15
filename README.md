@@ -2,6 +2,8 @@
 
 This is where my dotfiles live.
 
+## Usage
+
 ## Plugins to incorporate eventually
 
 ### Vim
