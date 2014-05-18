@@ -6,8 +6,7 @@ This is where my dotfiles live.
 
 ## Plugins to incorporate eventually
 
-### Vim
-
+* Oh My Zsh
 * <https://github.com/SirVer/ultisnips>
 
 ## Acknowledgements
