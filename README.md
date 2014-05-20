@@ -4,6 +4,8 @@ This is where my dotfiles live.
 
 ## Usage
 
+Usage instructions coming soon.
+
 ## Plugins to incorporate eventually
 
 * Oh My Zsh
