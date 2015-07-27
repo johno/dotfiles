@@ -39,3 +39,9 @@ Thumbs.db
 # Text editor files #
 #####################
 .swp
+
+# Build/package manager artifacts #
+###################################
+node_modules
+bower_components
+.sass-cache
