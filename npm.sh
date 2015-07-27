@@ -6,6 +6,6 @@ npm i -g generator-p generator-c generator-index generator-license generator-rew
 
 npm i -g cssstats scrutinize get-css get-contrast a11y psi immutable-css
 
-npm i -g whois-cli is-up wifi-password wifi-name brightness-cli vol battery-level
+npm i -g whois-cli is-up wifi-password wifi-name brightness-cli vol battery-level pure
 
 npm i -g gh github-search-repos
