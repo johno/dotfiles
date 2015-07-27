@@ -44,6 +44,7 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 brew install node
+brew install zsh
 
 # Install other useful binaries.
 brew install ack
