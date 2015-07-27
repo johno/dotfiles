@@ -15,6 +15,12 @@ source bootstrap.sh
 ./brew.sh
 ```
 
+### Switch to zsh
+
+```sh
+chsh -s $(which zsh)
+```
+
 ### Npm global packages
 
 ```sh
