@@ -43,6 +43,8 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
+brew install node
+
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
