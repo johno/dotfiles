@@ -12,7 +12,7 @@ source bootstrap.sh
 ### Homebrew
 
 ```sh
-./brew.sh
+./.brew.sh
 ```
 
 ### Switch to zsh
@@ -24,13 +24,13 @@ chsh -s $(which zsh)
 ### Npm global packages
 
 ```sh
-./npm.sh
+./.npm.sh
 ```
 
 ### OS X Defaults
 
 ```sh
-./.osx
+./.osx.sh
 ```
 
 ## Acknowledgements
