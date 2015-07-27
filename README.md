@@ -1,16 +1,36 @@
-# John Otander's Dotfiles
+# dotfiles
 
 This is where my dotfiles live.
 
-## Usage
+## Installation
 
-Usage instructions coming soon.
+```sh
+git clone https://github.com/johnotander/dotfiles && cd $_
+source bootstrap.sh
+```
 
-## Plugins to incorporate eventually
+### Homebrew
 
-* Oh My Zsh
-* <https://github.com/SirVer/ultisnips>
+```sh
+./brew.sh
+```
+
+### Npm global packages
+
+```sh
+./npm.sh
+```
+
+### OS X Defaults
+
+```sh
+./.osx
+```
 
 ## Acknowledgements
 
-The entire `script` directory is ripped off from <https://github.com/holman/dotfiles>, so thanks.
+Adapted from https://github.com/mathiasbynens/dotfiles
+
+## License
+
+MIT
