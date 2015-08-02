@@ -6,6 +6,8 @@ npm i -g generator-p generator-c generator-index generator-license generator-rew
 
 npm i -g cssstats scrutinize get-css get-contrast a11y psi immutable-css semi jshint
 
+npm i -g postcss perfectionist postcss-remove-prefixes cssnext
+
 npm i -g whois-cli is-up wifi-password wifi-name brightness-cli vol battery-level pure-prompt
 
 npm i -g gh github-search-repos
