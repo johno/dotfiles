@@ -10,4 +10,4 @@ npm i -g postcss perfectionist postcss-remove-prefixes cssnext
 
 npm i -g whois-cli is-up wifi-password wifi-name brightness-cli vol battery-level pure-prompt
 
-npm i -g gh github-search-repos
+npm i -g gh github-search-repos github-repositories
