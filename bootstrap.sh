@@ -8,10 +8,9 @@ git pull origin master;
 
 rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
   --exclude "README.md" --exclude "LICENSE" -avh --no-perms . ~;
-source ~/.bash_profile;
 
 fpath=( "$HOME/.zfunctions" $fpath )
-ln -s ~/.pure.zsh ~/.zfunctions/prompt_pure_setup
-ln -s ~/.async.zsh ~/.zfunctions/async
-autoload -U promptinit && promptinit
-prompt pure
+ln -sf ~/.pure.zsh ~/.zfunctions/prompt_pure_setup
+ln -sf ~/.async.zsh ~/.zfunctions/async
+
+source ~/.bash_profile;
