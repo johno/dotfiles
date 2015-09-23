@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-npm i -g yo bower grunt-cli gulp turn-it-off-and-on-again
+npm i -g npm yo bower grunt-cli gulp turn-it-off-and-on-again electron-prebuilt
 
 npm i -g generator-p generator-c generator-index generator-license generator-rework generator-generator
 
