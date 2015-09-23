@@ -10,5 +10,8 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
   --exclude "README.md" --exclude "LICENSE" -avh --no-perms . ~;
 source ~/.bash_profile;
 
-ln -s "./pure/pure.zsh" /usr/local/share/zsh/site-functions/prompt_pure_setup
-ln -s "./pure/async.zsh" /usr/local/share/zsh/site-functions/async
+fpath=( "$HOME/.zfunctions" $fpath )
+ln -s ~/.pure.zsh ~/.zfunctions/prompt_pure_setup
+ln -s ~/.async.zsh ~/.zfunctions/async
+autoload -U promptinit && promptinit
+prompt pure
