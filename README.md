@@ -35,7 +35,8 @@ chsh -s $(which zsh)
 
 ## Acknowledgements
 
-Adapted from https://github.com/mathiasbynens/dotfiles
+* Adapted from https://github.com/mathiasbynens/dotfiles
+* Uses https://github.com/sindresorhus/pure
 
 ## License
 
