@@ -2,9 +2,9 @@
 
 npm i -g npm yo bower grunt-cli gulp turn-it-off-and-on-again electron-prebuilt
 
-npm i -g generator-p generator-c generator-index generator-license generator-rework generator-generator
+npm i -g generator-p generator-c generator-index generator-rework
 
-npm i -g cssstats scrutinize get-css get-contrast a11y psi immutable-css semi jshint
+npm i -g cssstats scrutinize get-css get-contrast a11y psi immutable-css semi jshint sri-cli
 
 npm i -g postcss perfectionist postcss-remove-prefixes cssnext
 
