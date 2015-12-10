@@ -17,4 +17,4 @@ npm i -g gh github-search-repos github-repositories
 
 npm i -g strip-html-comments-cli css-scss-cli get-embedded-styles-cli
 
-npm i -g git-current-branch git-current-repo ggpull ggpush ggpullr ggpusht ghclone gtag
+npm i -g git-current-branch git-current-repo ggpull ggpush ggpullr ggpusht ghclone gtag github-latest-cli
