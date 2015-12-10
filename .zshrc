@@ -2,9 +2,11 @@ source ~/.bash_profile
 
 alias gd="git diff"
 alias git?="git status -s"
+alias g?="git?"
 alias grm="git rm"
 alias gbv="git branch -v"
 alias gcp="git cherry-pick"
+alias ggpullur="git pull --rebase upstream master"
 alias git-delete-merged="git branch --merged | grep -v \"\*\" | grep -v master | grep -v dev | xargs -n 1 git branch -d"
 
 alias ..="cd .."

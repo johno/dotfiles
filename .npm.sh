@@ -15,6 +15,6 @@ npm i -g whois-cli is-up-cli wifi-password wifi-name brightness-cli vol battery-
 
 npm i -g gh github-search-repos github-repositories
 
-npm i -g strip-comments-cli css-scss-cli get-embedded-styles-cli
+npm i -g strip-html-comments-cli css-scss-cli get-embedded-styles-cli
 
 npm i -g git-current-branch git-current-repo ggpull ggpush ggpullr ggpusht ghclone gtag
