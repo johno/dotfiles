@@ -25,3 +25,6 @@ bu () { cp $1 ~/.backup/`basename $1`-`date +%Y%m%d%H%M`.backup ; }
 mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 alias update-old-npm-module="git mv LICENSE.md license && git mv README.md readme.md && npm uninstall --save-dev mocha && npm i --save-dev ava && git mv test/test.js test.js"
+
+alias slp='pmset sleepnow'
+alias stayup='caffeinate -u -t 3600'
