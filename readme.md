@@ -9,25 +9,25 @@ git clone https://github.com/johnotander/dotfiles && cd $_
 source bootstrap.sh
 ```
 
-### Homebrew
+#### Homebrew
 
 ```sh
 ./.brew.sh
 ```
 
-### Switch to zsh
+#### Switch to zsh
 
 ```sh
 chsh -s $(which zsh)
 ```
 
-### Npm global packages
+#### Npm global packages
 
 ```sh
 ./.npm.sh
 ```
 
-### OS X Defaults
+#### OS X Defaults
 
 ```sh
 ./.osx.sh
