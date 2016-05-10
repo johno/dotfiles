@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme delek
+colorscheme slate
 
 autocmd Filetype ruby call SetTwoSoftSpacesOptions()
 autocmd Filetype javascript call SetTwoSoftSpacesOptions()
