@@ -4,6 +4,8 @@ filetype plugin indent on
 
 colorscheme slate
 
+set cm=blowfish2
+
 autocmd Filetype ruby call SetTwoSoftSpacesOptions()
 autocmd Filetype javascript call SetTwoSoftSpacesOptions()
 autocmd Filetype css call SetTwoSoftSpacesOptions()
