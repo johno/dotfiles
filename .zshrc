@@ -17,6 +17,8 @@ alias ggpullur="git pull --rebase upstream master"
 alias git-delete-merged="git branch --merged | grep -v \"\*\" | grep -v master | grep -v dev | xargs -n 1 git branch -d"
 alias git-kick='git commit --amend --no-edit && git push -f'
 
+alias lt="ls -t -r"
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -29,3 +31,32 @@ alias update-old-npm-module="git mv LICENSE.md license && git mv README.md readm
 
 alias slp='pmset sleepnow'
 alias stayup='caffeinate -u -t 3600'
+
+function nt {
+  if [ -z "$1" ]; then
+    lt ~/nt
+  else
+    vim $(take_file ~/nt/"$1")
+  fi
+}
+
+# Take a text file and build it with an extension, if needed.
+# Prefer gpg extension over txt.
+# http://pig-monkey.com/2012/12/notes-unix/
+take_file() {
+  # If an extension was given, use it.
+  if [[ "$1" == *.* ]]; then
+    echo "$1"
+  else
+    # ... try the file without any extension.
+    if [ -e "$1" ]; then
+      echo "$1"
+    # ... try the file with a gpg extension.
+    elif [ -e "$1".gpg ]; then
+      echo "$1".gpg
+    # ... use a txt extension.
+    else
+      echo "$1".txt
+    fi
+  fi
+}
