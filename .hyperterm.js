@@ -6,15 +6,6 @@ module.exports = {
     // font family with optional fallbacks
     fontFamily: 'Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
-    // terminal cursor background color (hex)
-    cursorColor: 'rebeccapurple',
-
-    // terminal background color (hex)
-    backgroundColor: '#000000',
-
-    // border color (winodw, tabs)
-    borderColor: '#333',
-
     // custom css to embed in the main window
     css: [''],
 
@@ -49,7 +40,9 @@ module.exports = {
   //   `hypersolar`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyperterm-gray'
+  ],
 
   // in development, you can create a directory under
   // `~/.hyperterm_modules/local/` and include it here
