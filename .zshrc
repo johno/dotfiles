@@ -8,8 +8,8 @@ autoload -U promptinit && promptinit
 prompt pure
 
 alias gd="git diff"
-alias git?="git status -s"
-alias g?="git?"
+alias "git?"="git status -s"
+alias "g?"="git?"
 alias grm="git rm"
 alias gbv="git branch -v"
 alias gcp="git cherry-pick"
