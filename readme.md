@@ -27,12 +27,6 @@ chsh -s $(which zsh)
 ./.npm.sh
 ```
 
-#### OS X Defaults
-
-```sh
-./.osx.sh
-```
-
 ## Acknowledgements
 
 * Adapted from https://github.com/mathiasbynens/dotfiles
