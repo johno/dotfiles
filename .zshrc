@@ -40,6 +40,8 @@ function nt {
   fi
 }
 
+pngo () { imagemin -p pngquant $1 > "$1-o" && mv "$1-o" $1 }
+
 # Take a text file and build it with an extension, if needed.
 # Prefer gpg extension over txt.
 # http://pig-monkey.com/2012/12/notes-unix/
