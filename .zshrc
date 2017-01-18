@@ -62,3 +62,5 @@ take_file() {
     fi
   fi
 }
+
+. ~/.z.sh
