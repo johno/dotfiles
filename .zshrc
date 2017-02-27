@@ -17,6 +17,9 @@ alias ggpullur="git pull --rebase upstream master"
 alias git-delete-merged="git branch --merged | grep -v \"\*\" | grep -v master | grep -v dev | xargs -n 1 git branch -d"
 alias git-kick='git commit --amend --no-edit && git push -f'
 
+alias docker-up='eval $(docker-machine env)'
+alias docker-kill-latest='docker kill $(docker ps -l -q)'
+
 alias lt="ls -t -r"
 
 alias ..="cd .."
