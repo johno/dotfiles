@@ -7,7 +7,7 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
 
-export PATH=$PATH:"$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=$PATH:"$GOBIN:$HOME/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 autoload -U promptinit && promptinit
 prompt pure
