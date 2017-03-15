@@ -24,6 +24,8 @@ alias git-kick='git commit --amend --no-edit && git push -f'
 
 alias docker-up='eval $(docker-machine env)'
 alias docker-kill-latest='docker kill $(docker ps -l -q)'
+alias docker-test='docker-compose build test && docker-compose run --rm test'
+alias dct='docker-test'
 
 alias lt="ls -t -r"
 
