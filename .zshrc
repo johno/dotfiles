@@ -27,6 +27,7 @@ alias docker-kill-latest='docker kill $(docker ps -l -q)'
 alias docker-test='docker-compose build test && docker-compose run --rm test'
 alias dct='docker-test'
 
+alias c="clear"
 alias lt="ls -t -r"
 
 alias ..="cd .."
