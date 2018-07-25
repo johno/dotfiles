@@ -24,6 +24,9 @@ But, these are the steps I take.
 - [Cache][cache] git credentials
   - `git config --global user.name "John Otander"`
   - `git config --global user.email "johnotander@gmail.com"`
+  - Get personal access token from GitHub for auth under "Developer Settings"
+- Setup ssh key
+  - `ssh-keygen -t rsa -b 4096 -C "johnotander@gmail.com"`
 - `git clone https://github.com/johno/dotfiles && cd $_ && bootstrap && cd`
 - Install [pathogen][]
 - Install homebrew packages
