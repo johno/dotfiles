@@ -7,15 +7,14 @@ module.exports = {
     fontFamily: '"San Francisco Mono", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // custom css to embed in the main window
-    css: [''],
+    css: '',
 
     // custom css to embed inside each terminal
-    termCSS: [''],
+    termCSS: '',
 
     // some color overrides. see http://bit.ly/29k1iU2 for
     // the full list
-    colors: [
-    ]
+    colors: {}
   },
 
   // a list of plugins to fetch and install from npm

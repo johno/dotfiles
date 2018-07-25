@@ -1,14 +1,8 @@
 #!/usr/bin/env bash
 
-# From https://github.com/mathiasbynens/dotfiles/blob/master/bootstrap.sh
+git pull origin master
 
-cd "$(dirname "${BASH_SOURCE}")";
-
-git pull origin master;
-
-rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-  --exclude "readme.md" --exclude "license" -avh --no-perms . ~;
-
-fpath=( "$HOME/.zfunctions" $fpath )
-ln -sf ~/.pure.zsh ~/.zfunctions/prompt_pure_setup
-ln -sf ~/.async.zsh ~/.zfunctions/async
+cp zshrc ~/.zshrc
+cp hyper.js ~/.hyper.js
+cp z.sh ~/.z.sh
+cp vimrc ~/.vimrc
