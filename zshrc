@@ -74,4 +74,8 @@ take_file() {
   fi
 }
 
+# https://github.com/sindresorhus/pure
+autoload -U promptinit; promptinit
+prompt pure
+
 . ~/.z.sh
