@@ -19,7 +19,6 @@ But, these are the steps I take.
 - Swap Caps Lock => Escape
 - Download Chrome
 - Download 1password
-- Download [hyper][]
 - Install homebrew
 - [Cache][cache] git credentials
   - `git config --global user.name "John Otander"`
@@ -30,7 +29,6 @@ But, these are the steps I take.
 - `git clone https://github.com/johno/dotfiles && cd $_ && bootstrap && cd`
 - Install [pathogen][]
 - Install homebrew packages
-  - Rbenv
   - Node
 - Install golang
   - `mkdir $HOME/Go`
@@ -41,6 +39,5 @@ But, these are the steps I take.
 
 MIT
 
-[hyper]: https://hyper.is/
 [cache]: https://help.github.com/articles/caching-your-github-password-in-git/
 [pathogen]: https://github.com/tpope/vim-pathogen
